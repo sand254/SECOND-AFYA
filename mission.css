@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .mission-container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .mission-text {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .mission-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  h2 {
+    color: #942591e6;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+  }
+  i{
+    color: #942591e6;
+  }
+  
+  p {
+    color: #666;
+    line-height: 1.6;
+  }
+.mix{
+  color: rgb(150, 245, 9);
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}  

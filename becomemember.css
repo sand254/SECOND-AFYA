@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .membership-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  h1 {
+    text-align: center;
+    color: rgb(109, 32, 163);
+    color: #942591e6;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    text-transform: capitalize;
+  }
+  
+  h2 {
+    color: #333;
+    text-align: center;
+    color:  rgb(109, 32, 163);
+  }
+  
+  .options {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .option {
+    width: 45%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .option h3 {
+    color: rgb(109, 32, 163);
+    text-align: center;
+  }
+  
+  .option-details {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .option-details p {
+    color: #666;
+  }
+  
+  .option img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(109, 32, 163);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

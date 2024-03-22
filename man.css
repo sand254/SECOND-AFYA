@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    list-style: none;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-position:center;
+    background-size:auto;
+    margin: 0;
+    height: 100vh;
+    margin-left: 0px;
+    
+}
+.header{
+    background-color:#808d97;
+    justify-content: space-between;
+    display: flex;
+    text-align: left;
+    align-items:center;
+}
+nav{
+    background-color:#56595b;
+    width:100%;
+    height: 80px;
+}
+label.logo{
+    color:whitesmoke;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 80px;
+}
+nav ul{
+    float: right;
+    margin-right :10px; 
+    
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: antiquewhite;
+    text-transform:uppercase;
+    font-size:17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+a.active,a:hover{
+    background: #628cad;
+    transition: .5s;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:0px;
+    margin-left: 80px;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    width: 1200px;
+    margin-left: 100px;
+  }
+  
+  .lostdir {
+    font-size: 24px;
+    font-weight: bold;
+    color: #358fd9;
+  }
+  .lostdir:hover{
+    background-color: rgb(133, 188, 24);
+    opacity: 0.7;
+    border-radius: 3px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding-top: 40px;
+  }
+  
+  .banner {
+    background-color: #358fd9;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+  }
+  
+  .banner h1 {
+    font-size: 32px;
+    margin-bottom:0;
+  }
+  .services{
+    height: 650px;
+    background-image: url(doctor.png);
+  }
+  .services h2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #9b62ad;
+    width: 300px;
+    margin-left: 500px;
+  }
+  
+  .services ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .services li {
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin-bottom: 10px;
+  }
+  
+  footer ul {
+    list-style:none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  footer li {
+    display:flexbox;
+    margin-right: 20px;
+    padding-top: 10px;
+  }
+  .dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+/* Dropdown button */
+.dropbtn {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 10px 15px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #56595b;
+    min-width: 245px;
+    z-index: 1;
+    margin-top:0px;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 0px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #628cad;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .dropdown-content {
+        min-width: 100%;
+    }
+}

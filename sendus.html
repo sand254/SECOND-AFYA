@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+
+    <style>
+.contact-form{
+width: 400px;
+height: 500px;
+text-align: center;
+padding: 30px;
+ border: 1px solid grey;
+ border-radius: 10px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ margin-left: 400px;
+ background-color: #f1f1f1;
+ margin-top: 70px;
+
+}
+.contact-form h1{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.contact-form p{
+    text-align: center;
+    line-height: 1.5;
+    color: grey;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+}
+.contact-form input,
+.contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 14px;
+    border: 1px solid  grey;
+    border-radius: 5px;
+}
+button{
+    width:100%;
+    color:white;
+    background-color: rgb(0, 132, 255);
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover{
+    background-color: rgb(48, 68, 183);
+    opacity:0.5;
+}
+    </style>
+</head>
+<body>
+    <div class="contact-form">
+        <h1><strong>Send us a message</strong></h1>
+        <p class="text">Feel free to get in touch with us with anything related to us health-care 
+            services or you can just say hi! We will get back to you as soon as possible.</p>
+        <form action="submit_form.php" method="post">
+
+           
+            <input type="text" id="name" name="name" placeholder="Your Name"><br>
+           
+            <input type="email" id="email" name="email" placeholder="Your Email"><br>
+            
+            <textarea id="message" name="message" placeholder="Write your message here..."></textarea><br>
+            
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>
